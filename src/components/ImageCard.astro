@@ -4,19 +4,22 @@ const{ link, caption, height}= Astro.props
 ---
 
 
-  <div id ="outline"> <img src={link} height={height};>
-	<p>{caption}</p> </div>
+  <div id ="outline">
+     <img src={link} height={height};>
+	<p>{caption}</p>
+</div>
+
 <style>
 #outline
 {
-  padding:15px;
-  background-color:palevioletred;
-  transform:rotate(3deg);
+  transform:rotate(5deg);
   width:500px;
+  display: flex;
+  justify-content: center;
   align-items: center;
 
 
-}
 
+}
 
 </style>

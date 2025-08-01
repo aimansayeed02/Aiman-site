@@ -6,9 +6,10 @@ body {
     max-width: 1050px;
     line-height: 1.6;
     font-size: 18px;
-    color: #444;
+    color: #424244;
     padding: 0 10px;
-    font-family: Arial, sans-serif;
+    font-family:Gloria Hallelujah, cursive;
+    font-weight: 400;
 }
 
 h1, h2, h3 {
@@ -28,7 +29,7 @@ nav ul li {
 
 nav a {
     text-decoration: none;
-    color: #444;
+    color: #634980;
 }
 
 nav a:hover {
@@ -38,12 +39,12 @@ nav a:hover {
 /* Basic button style */
 .btn {
     display: inline-block;
-    background: #444;
-    color: white;
+    background: #303c7e;
+    color: rgb(26, 23, 23);
     padding: 8px 16px;
     text-decoration: none;
 }
 
 .btn:hover {
-    background: #666;
+    background: #91cdb3;
 }
